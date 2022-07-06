@@ -72,9 +72,6 @@ body {
 /* Top Banner Div Css END */
 
 /* Donate Today Div CSS Start */
-#donate-today {
-     
-}
 
 #donate-amount {
     width:100%;
@@ -167,8 +164,46 @@ form input::-webkit-input-placeholder {
 
 /* Donate Plan Div CSS End */
 
+
+/* Event Div CSS Start */
+
+#events {
+    padding: 60px;
+}
+.event-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-list img {
+    height: 350px;
+    width: 400px;
+}
+
+.description {
+    width: 40%;
+    margin: 50px;
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+ .left {
+    float: left;
+    padding: 15px;
+    margin-top: 15px;
+ }
+
+/* Event Div CSS End */
+
+
 /* Newsletter CSS Start */
 #form {
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #FFF4D6;
@@ -176,28 +211,30 @@ form input::-webkit-input-placeholder {
     margin: 50px 500px 200px 500px;
 }
 
-#form .text_input {
-    width: 40%;
-    padding: 20px;
-    line-height: 30px;
-    font-size: 20px;
-    margin: 3px;
-    margin-left: 20px;
-    border: none;
-    display: block;
-}
-  
-#form .btn {
-    margin: 0 auto;
-    color: aliceblue;
-    padding: 20px;
-    background-color: #FF5959;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 10px;
-    letter-spacing: 2px;
+#form input {
+    padding: 17px;
+    width: 30%;
     border: 0;
+    background-color: #cad1d2;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
+
+#form input::-webkit-input-placeholder {
+    font-size: 20px;
+}
+
+#form button {
+    padding: 14px;
+    background-color: #FF5959;
+    color: aliceblue;
+    border: 0;
+    font-size: 18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
   
 
 /* Footer CSS */
