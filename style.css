@@ -1,36 +1,48 @@
 *{
     padding: 0;
     margin: 0;
-    width: 100%;
-    overflow: hidden;
 }
 
 .text-center {
     text-align: center;
+}
+
+.heading {
+    margin-top: 100px;
+    color: black;
+    font-weight: 700px;
+    font-size: 50px;
+}
+
+.paragraph {
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 500px;
+    padding: 30px 0;
 }
 /* font */
 body {
     font-family: 'Poppins', sans-serif;
 }
 /* Top Banner Div Css Start */
-.top-header {
+#top-header {
     background-image: url(./images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 650px;
+    height: 700px;
     padding-top: 200px;
     opacity: 0.8;
 }
 
-.top-header h1 {
+#top-header h1 {
     color: aliceblue;
     letter-spacing: 3px;
     font-size: 70px;
     font-weight: 800;
 }
 
-.top-header p {
+#top-header p {
     color: aliceblue;
     letter-spacing: 2px;
     font-size: 20px;
@@ -50,6 +62,7 @@ body {
     border-radius: 10px;
     letter-spacing: 3px;
     border: 0;
+
 }
 
 .donate-now-button:hover {
@@ -59,45 +72,154 @@ body {
 /* Top Banner Div Css END */
 
 /* Donate Today Div CSS Start */
-.donate-today {
-    padding: 100px 0;
-}
-
-.donate-today h1 {
-    color: black;
-    font-weight: 700px;
-    font-size: 50px;
-}
-
-.donate-today p {
-    letter-spacing: 2px;
-    font-size: 18px;
-    font-weight: 500px;
-    padding: 30px 0;
+#donate-today {
+     
 }
 
 #donate-amount {
     width:100%;
-    margin: 0 auto;
-    margin-top:75px;
     height:250px;
-    padding: 0 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.amount1, .amount2, .amount3, .amount4, .amount5 {
+.amount {
     float: left;
     width: 10%;
-    margin-right: 20px;
+    background-color: rgb(207, 221, 221);
+    margin-left: 20px;
+    padding: 40px 30px;
 }
-.box{
-    height: 100px;
-    background-color: #FAFAFA;
-    border-radius: 5px;
-    padding-top: 50px;
-}
+
 
 .alert {
     background-color: #FFEEEE;
     border: 2px solid #FF6565;
-    border-right: black;
 }
+
+#other-amount {
+    margin: 0 0 50px 0;
+}
+
+form {
+    margin: auto;
+    width: 800px;
+}
+
+form input {
+    padding: 20px;
+    width: 100%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 2px solid rgb(207, 221, 221);
+}
+
+form input::-webkit-input-placeholder {
+    font-size: 30px;
+    line-height: 3;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+/* Donate Today Div CSS End */
+
+/* Donate Plan Div CSS End */
+#donate-plan-list {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan {
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+    padding: 60px 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#food-plan {
+    background-color: #EDF5F6;
+}
+
+#shelter-plan {
+    background-color: #FFEEEE;
+}
+
+#education-plan {
+    background-color: #FFF4D6;
+}
+
+.icon-image {
+    height: 80px;
+    width: 80px;
+}
+
+.plan p {
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+
+/* Donate Plan Div CSS End */
+
+/* Newsletter CSS Start */
+#form {
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF4D6;
+    height: 300px;
+    margin: 50px 500px 200px 500px;
+}
+
+#form .text_input {
+    width: 40%;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 3px;
+    margin-left: 20px;
+    border: none;
+    display: block;
+}
+  
+#form .btn {
+    margin: 0 auto;
+    color: aliceblue;
+    padding: 20px;
+    background-color: #FF5959;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+  
+
+/* Footer CSS */
+#footer {
+    height: 200px;
+    background-color: black;
+}
+
+#footer h2 {
+    color: #FF5959;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+#footer h3 {
+    color: #EDF5F6;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* Footer End */

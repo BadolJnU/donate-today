@@ -1,53 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <title>Donate-Today</title>
 </head>
+
 <body>
     <!-- Top Banner Div Start -->
-    <div class="top-header">
+    <div id="top-header">
         <h1 class="text-center">Making a Donation is the ultimate <br>Sign of Solidarity</h1>
-        <p class="text-center">Support local flood relief efforts run by trusted charities in Bangladesh. Donate online More ways to give. <br>Donate online More ways to give.</p>
+        <p class="text-center">Support local flood relief efforts run by trusted charities in Bangladesh. Donate online
+            More ways to give. <br>Donate online More ways to give.</p>
         <button class="donate-now-button">Donate Now</button>
     </div>
     <!-- Top Banner Div End -->
 
     <!-- Donate Today Div Start -->
-    <div class="donate-today">
-        <h1 class="text-center">Donate Today</h1>
-        <p class="text-center">Open Your Heart To Those In Need. Your support helps improve lives and fuel research. Donate securely online! <br>Donate in honor or memory of someone special</p>
+    <div id="donate-today">
+        <h1 class="text-center heading">Donate Today</h1>
+        <p class="text-center paragraph">Open Your Heart To Those In Need. Your support helps improve lives and fuel research.
+            Donate securely online! <br>Donate in honor or memory of someone special</p>
         <div id="donate-amount">
-            <div class="amount1">
-                <div class="box">
-                    <h2 class="text-center">100 TK</h2>
-                </div>
+            <div class="amount">
+                <h2 class="text-center">100 TK</h2>
             </div>
-             <div class="amount2">
-                <div class="box alert">
-                    <h2 class="text-center">500 TK</h2>
-                </div>
+            <div class="amount alert">
+                <h2 class="text-center">500 TK</h2>
             </div>
-            <div class="amount3">
-                <div class="box">
-                    <h2 class="text-center">1000 TK</h2>
-                </div>
-             </div>
-            <div class="amount4">
-                <div class="box">
-                    <h2 class="text-center">2000 TK</h2>
-                </div>
+            <div class="amount">
+                <h2 class="text-center">1000 TK</h2>
             </div>
-            <div class="amount5">
-                <div class="box">
-                    <h2 class="text-center">5000 TK</h2>
-                </div>
+            <div class="amount">
+                <h2 class="text-center">2000 TK</h2>
+            </div>
+            <div class="amount">
+                <h2 class="text-center">5000 TK</h2>
+            </div>
+        </div>
+        <div id="other-amount">
+            <form action="">
+                <input type="text" placeholder="Other Amount (Taka)" />
+            </form>
+        </div>
+        <button class="donate-now-button">Donate Now</button>
+    </div>
+
+    <!-- Donate Today Div END -->
+
+    <!-- Donate Plan Div Start -->
+    <div id="donate-plan">
+        <h1 class="text-center heading">Our Donate Plan</h1>
+        <p class="text-center paragraph">You can use any donation plan and stand with the victims. Donate food or other items. <br>Check with your local Red Cross chapter, community center (like the YMCA), or <br>place of worship to find out what they need.</p>
+        <div id="donate-plan-list">
+            <div class="plan" id="food-plan">
+                <img src="./icons/icon8.svg" alt="" class="icon-image">
+                <h2>Food For a Family</h2>
+                <p>Food assistance: cash-based and in-kind. We distributes food in areas where it is scarce. In places where food is available but unaffordable</p>
+            </div>
+            <div class="plan" id="shelter-plan">
+                <img src="./icons/icon13.svg" alt="" class="icon-image">
+                <h2>Shelter For a Family</h2>
+                <p>Our mission is to provide emergency shelter to families who have lost their home to disaster, enabling them to rebuild their new lives.</p>
+            </div>
+            <div class="plan" id="education-plan">
+                <img src="./icons/icon4.svg" alt="" class="icon-image">
+                <h2>Education For a Family</h2>
+                <p>You can donate any amount for school supplies that could ensure a meaningful ... We encourage you all to aid in these children's education and futures.
+                </p>
             </div>
         </div>
     </div>
+
+    <!-- Donate Plan Div End -->
+    <!-- Newsletter Div Start -->
+    <div id="newsletter">
+        <h1 class="text-center heading">Get My Updates</h1>
+        <p class="text-center paragraph">Share your email, we will send you all the updates of events.</p>
+        <div id="form">
+            <input type="text" class="text_input" placeholder="Email"/>
+            <button value="Save" class="btn">Subscribe</button>
+        </div>
+    </div>
+
+    <!-- Newsletter Div End -->
+
+    <!-- Footer Start -->
+    <div id="footer">
+        <h2>Be Humble</h2>
+        <h3>I'm gonna do it</h3>
+    </div>
+
+    <!-- Footer End -->
 </body>
+
 </html>
